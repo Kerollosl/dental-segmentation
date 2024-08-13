@@ -26,9 +26,10 @@
 
 ### Contents
 
-- `test.py` - Program to load model and test it test cases
+- `test.py` - Program to load model and test it with test cases
 - `train_and_validate.ipynb` - Program to download Roboflow dataset, load, train, and validate YOLOv8 model, and save weights and validation metrics to a zip file to be downloaded. 
 - `/runs/segment` - Subdirectory of YOLOv8 model training and validation containing the training weights and validation metrics.
 - `/runs/segment/train3/weights/best.pt` - Highest performing model weights file from previous trainings
 - `FDI_Numbering_System.png` - Image showing the FDI system of numbering teeth. The Roboflow dataset used labels the teeth with this naming convention, however it is not as highly used as the Universal Numbering system. 
 - `Universal_Numbering_System.png` - Image showing the Universal system of numbering teeth. `test.py` uses a dictionary to convert the labels when displaying segmentations from the FDI system to this Universal system. 
+- `/test_images/` - Subdirectory containing images to test the model's performance.
