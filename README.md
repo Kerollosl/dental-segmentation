@@ -1,11 +1,6 @@
 # YOLOv8 Tooth Number and Dental Condition Model
 
-## Kerollos Lowandy
-
-**Repository: dental-segmentation**
-
-## GitHub Link
-[https://github.com/Kerollosl/dental-segmentation](https://github.com/Kerollosl/dental-segmentation)
+A YOLOv8 segmentation model for dental X-rays that can either label each tooth with its Universal numbering-system number (1–32, including wisdom teeth) or flag visible dental conditions. Switch modes via a single flag in `test.py`.
 
 ### Model Architecture
 - YOLOv8
