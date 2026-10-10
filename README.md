@@ -28,3 +28,7 @@ A YOLOv8 segmentation model for dental X-rays that can either label each tooth w
 - `FDI_Numbering_System.png` - Image showing the FDI system of numbering teeth. The Roboflow dataset used labels the teeth with this naming convention, however it is not as highly used as the Universal Numbering system. 
 - `Universal_Numbering_System.png` - Image showing the Universal system of numbering teeth. `test.py` uses a dictionary to convert the labels when displaying segmentations from the FDI system to this Universal system. 
 - `/test_images/` - Subdirectory containing images to test the model's performance.
+
+## Cleanup behavior and validation limits
+
+Research-only tooth segmentation. Unreadable images are rejected before resizing. Set ROBOFLOW_API_KEY externally and revoke the previously committed credential. Tooth/condition mappings and patient-separated evaluation still require validation against the exact model.names and original dataset provenance.

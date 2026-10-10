@@ -1,0 +1,871 @@
+{
+  "version": 1,
+  "source_commit": "29b2b1bbc1e23cf0dad095223413fb9f73fc78a6",
+  "artifacts": [
+    {
+      "path": "runs/segment/train/BoxF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1382fa129321d5ed8eafb2d2c8d46c9cb7a0a90",
+      "size": 593760,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/f1382fa129321d5ed8eafb2d2c8d46c9cb7a0a90"
+    },
+    {
+      "path": "runs/segment/train/BoxPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa18ac511b4bfff37f6fbeba92c25fa83783f1b8",
+      "size": 282376,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/aa18ac511b4bfff37f6fbeba92c25fa83783f1b8"
+    },
+    {
+      "path": "runs/segment/train/BoxP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e48fd033e7e5ba36c56e4f056798e90c3c7771",
+      "size": 431619,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/99e48fd033e7e5ba36c56e4f056798e90c3c7771"
+    },
+    {
+      "path": "runs/segment/train/BoxR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79177ea983740b6d60d5120c8268ad209663852",
+      "size": 511426,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/c79177ea983740b6d60d5120c8268ad209663852"
+    },
+    {
+      "path": "runs/segment/train/MaskF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9fd919cb27d9738c32ab88ba6fc65759110452c",
+      "size": 625522,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/c9fd919cb27d9738c32ab88ba6fc65759110452c"
+    },
+    {
+      "path": "runs/segment/train/MaskPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525a0c2176e27784294fd8ff54fc23fc33a383aa",
+      "size": 325235,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/525a0c2176e27784294fd8ff54fc23fc33a383aa"
+    },
+    {
+      "path": "runs/segment/train/MaskP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c3aa5447b972ab3aecaa6f718d4cebdd33c4401",
+      "size": 534385,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9c3aa5447b972ab3aecaa6f718d4cebdd33c4401"
+    },
+    {
+      "path": "runs/segment/train/MaskR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1308dcd241e388c8a912ace1c044f9998bed1381",
+      "size": 514052,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/1308dcd241e388c8a912ace1c044f9998bed1381"
+    },
+    {
+      "path": "runs/segment/train/args.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39f4490bfc91c6096e04bdfff606bc7ff48a9157",
+      "size": 1543,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/39f4490bfc91c6096e04bdfff606bc7ff48a9157"
+    },
+    {
+      "path": "runs/segment/train/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc9a45c47ca69341d15875be34786b608efc69c2",
+      "size": 270096,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/bc9a45c47ca69341d15875be34786b608efc69c2"
+    },
+    {
+      "path": "runs/segment/train/confusion_matrix_normalized.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fb6ffe74379181e402a528f6a2e729f866062b5",
+      "size": 257911,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/6fb6ffe74379181e402a528f6a2e729f866062b5"
+    },
+    {
+      "path": "runs/segment/train/events.out.tfevents.1722978465.98198fe00369.637.0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c55ed9e4fbae7981a419038553a2413995eed95",
+      "size": 304224,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/7c55ed9e4fbae7981a419038553a2413995eed95"
+    },
+    {
+      "path": "runs/segment/train/labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43529c76c5fc396fd070f567433703ebc3cb1e52",
+      "size": 117094,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/43529c76c5fc396fd070f567433703ebc3cb1e52"
+    },
+    {
+      "path": "runs/segment/train/labels_correlogram.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96cb0e2c0fd447241503a43f7aaac59aadda1b67",
+      "size": 231567,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/96cb0e2c0fd447241503a43f7aaac59aadda1b67"
+    },
+    {
+      "path": "runs/segment/train/results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1270b7a193670235e5cb57ffcaf916f122af295b",
+      "size": 7680,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/1270b7a193670235e5cb57ffcaf916f122af295b"
+    },
+    {
+      "path": "runs/segment/train/results.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c49d2dcc41214cb6e3dbd909eae485970dec5e3a",
+      "size": 408212,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/c49d2dcc41214cb6e3dbd909eae485970dec5e3a"
+    },
+    {
+      "path": "runs/segment/train/train_batch0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d47d413d36339e2b3e0c525a42c713e5aab0c1",
+      "size": 863788,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/f7d47d413d36339e2b3e0c525a42c713e5aab0c1"
+    },
+    {
+      "path": "runs/segment/train/train_batch1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860c9a927e818a9ee6971636515b1197da7fd37e",
+      "size": 712810,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/860c9a927e818a9ee6971636515b1197da7fd37e"
+    },
+    {
+      "path": "runs/segment/train/train_batch2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddc71b6c650d94fe6b290ea656daed5a01cd1b86",
+      "size": 869456,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/ddc71b6c650d94fe6b290ea656daed5a01cd1b86"
+    },
+    {
+      "path": "runs/segment/train/train_batch2745.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e180d94a40cb5daf13a3c1347462e7ad1e1c213",
+      "size": 702327,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9e180d94a40cb5daf13a3c1347462e7ad1e1c213"
+    },
+    {
+      "path": "runs/segment/train/train_batch2746.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c427122c4a003f5ae4289101924687dbcaa286eb",
+      "size": 678937,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/c427122c4a003f5ae4289101924687dbcaa286eb"
+    },
+    {
+      "path": "runs/segment/train/train_batch2747.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f468b025d20fac9bb3e852a82e89deaf39a9250",
+      "size": 750947,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9f468b025d20fac9bb3e852a82e89deaf39a9250"
+    },
+    {
+      "path": "runs/segment/train/val_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e924ec3ae4d6b2689a1744bb9b4bc24d2897ad2",
+      "size": 665631,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/1e924ec3ae4d6b2689a1744bb9b4bc24d2897ad2"
+    },
+    {
+      "path": "runs/segment/train/val_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "601b24e6aa782281fa93baef49e25279519c486a",
+      "size": 668301,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/601b24e6aa782281fa93baef49e25279519c486a"
+    },
+    {
+      "path": "runs/segment/train/val_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d0ee5f993842da39ebd5abd7fc6eddf4b077dc6",
+      "size": 949186,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/4d0ee5f993842da39ebd5abd7fc6eddf4b077dc6"
+    },
+    {
+      "path": "runs/segment/train/val_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "399a7a28a94ed3ff8b97b211909315fc7e5ad35b",
+      "size": 924486,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/399a7a28a94ed3ff8b97b211909315fc7e5ad35b"
+    },
+    {
+      "path": "runs/segment/train/val_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "188f70c612f3e747ad094791477418e9e8e50365",
+      "size": 982378,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/188f70c612f3e747ad094791477418e9e8e50365"
+    },
+    {
+      "path": "runs/segment/train/val_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d95496e072e599b81f0dfdc07522b77b37dd1cc5",
+      "size": 957673,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/d95496e072e599b81f0dfdc07522b77b37dd1cc5"
+    },
+    {
+      "path": "runs/segment/train/weights/best.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b43a4d902c9fdae3270a620d9f741f3e7b27bdcd",
+      "size": 54869269,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/b43a4d902c9fdae3270a620d9f741f3e7b27bdcd"
+    },
+    {
+      "path": "runs/segment/train/weights/last.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e03fb942f8b1ef1748fe45cff715f507ee82966",
+      "size": 54869269,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/7e03fb942f8b1ef1748fe45cff715f507ee82966"
+    },
+    {
+      "path": "runs/segment/train2/BoxF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabe956ed857aee1bbbfc2e67b651fc42852faab",
+      "size": 589126,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/fabe956ed857aee1bbbfc2e67b651fc42852faab"
+    },
+    {
+      "path": "runs/segment/train2/BoxPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6d2d5cacc0002d9d4855b28952284932fb9dff",
+      "size": 282174,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/6d6d2d5cacc0002d9d4855b28952284932fb9dff"
+    },
+    {
+      "path": "runs/segment/train2/BoxP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb6090d8f140f3b289c6c491f3c3d37777087577",
+      "size": 432309,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/cb6090d8f140f3b289c6c491f3c3d37777087577"
+    },
+    {
+      "path": "runs/segment/train2/BoxR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12723fc0f4526960ab3eedcdb8f485053f4a53d7",
+      "size": 509559,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/12723fc0f4526960ab3eedcdb8f485053f4a53d7"
+    },
+    {
+      "path": "runs/segment/train2/MaskF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bb15551b936ef80ed1e05b4f9920788a9310c52",
+      "size": 627238,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/0bb15551b936ef80ed1e05b4f9920788a9310c52"
+    },
+    {
+      "path": "runs/segment/train2/MaskPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb774475cd37e7ac59c19cc28f3b0f87135f147",
+      "size": 328441,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/aeb774475cd37e7ac59c19cc28f3b0f87135f147"
+    },
+    {
+      "path": "runs/segment/train2/MaskP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2ae70bcbe254f8f745c7bbb9bb888f47866a1b",
+      "size": 540794,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/6c2ae70bcbe254f8f745c7bbb9bb888f47866a1b"
+    },
+    {
+      "path": "runs/segment/train2/MaskR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d7a50df75f138c78973471bcd0505121cc752cc",
+      "size": 517772,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/2d7a50df75f138c78973471bcd0505121cc752cc"
+    },
+    {
+      "path": "runs/segment/train2/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e72dba97fe5553e9c16d96b126af692c979fdbf",
+      "size": 270138,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/1e72dba97fe5553e9c16d96b126af692c979fdbf"
+    },
+    {
+      "path": "runs/segment/train2/confusion_matrix_normalized.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f16f1bb85cfc93c5626ec752a7cfda4ce1dbec",
+      "size": 257922,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/29f16f1bb85cfc93c5626ec752a7cfda4ce1dbec"
+    },
+    {
+      "path": "runs/segment/train2/val_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc16cc5a85c8d3c8fb90b70319c8a4d93871745e",
+      "size": 664561,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/dc16cc5a85c8d3c8fb90b70319c8a4d93871745e"
+    },
+    {
+      "path": "runs/segment/train2/val_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc7955410f5e598dbf38b718f2d6b5ebc964d1e4",
+      "size": 667710,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/cc7955410f5e598dbf38b718f2d6b5ebc964d1e4"
+    },
+    {
+      "path": "runs/segment/train2/val_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c46ace4eedb7f03fb44d948da45cb14a5a5d66",
+      "size": 666758,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/53c46ace4eedb7f03fb44d948da45cb14a5a5d66"
+    },
+    {
+      "path": "runs/segment/train2/val_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f20fb26f676129da4dc89ea249db349ca328502",
+      "size": 668864,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/3f20fb26f676129da4dc89ea249db349ca328502"
+    },
+    {
+      "path": "runs/segment/train2/val_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a946f2a68ac20abc0fe02496a809fd551b83851",
+      "size": 949514,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/7a946f2a68ac20abc0fe02496a809fd551b83851"
+    },
+    {
+      "path": "runs/segment/train2/val_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d6d1519227d6d19060f5af30e0ca7c8679492e5",
+      "size": 924001,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/8d6d1519227d6d19060f5af30e0ca7c8679492e5"
+    },
+    {
+      "path": "runs/segment/train3/BoxF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99162343d82c45782fb10aa9936e654e98dea020",
+      "size": 528517,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/99162343d82c45782fb10aa9936e654e98dea020"
+    },
+    {
+      "path": "runs/segment/train3/BoxPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e88456b34a4a5434c7a55d32d86314611245abb3",
+      "size": 248177,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/e88456b34a4a5434c7a55d32d86314611245abb3"
+    },
+    {
+      "path": "runs/segment/train3/BoxP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b61b3b98f3a63abd4084043a8b6048dbc1ca91",
+      "size": 388388,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/e7b61b3b98f3a63abd4084043a8b6048dbc1ca91"
+    },
+    {
+      "path": "runs/segment/train3/BoxR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f54db00a18c8c271565746bfe63e65dd1f68e02",
+      "size": 455893,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9f54db00a18c8c271565746bfe63e65dd1f68e02"
+    },
+    {
+      "path": "runs/segment/train3/MaskF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "515b451beae694b77219936a75703e47e3ad4acb",
+      "size": 576364,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/515b451beae694b77219936a75703e47e3ad4acb"
+    },
+    {
+      "path": "runs/segment/train3/MaskPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d0b8b1e28a9af87cc00c661d76659869de597c2",
+      "size": 314865,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/8d0b8b1e28a9af87cc00c661d76659869de597c2"
+    },
+    {
+      "path": "runs/segment/train3/MaskP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d98111cc3b756bad0f4974968adc5ba6c513f04",
+      "size": 476825,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/3d98111cc3b756bad0f4974968adc5ba6c513f04"
+    },
+    {
+      "path": "runs/segment/train3/MaskR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178d8e13915cacae2f27439095880146692bb264",
+      "size": 473468,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/178d8e13915cacae2f27439095880146692bb264"
+    },
+    {
+      "path": "runs/segment/train3/args.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799bd8b902a7b4b5305f888c8b16f78c11dbe576",
+      "size": 1545,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/799bd8b902a7b4b5305f888c8b16f78c11dbe576"
+    },
+    {
+      "path": "runs/segment/train3/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bf415502f0e213339887b36f1c72705cc2c1593",
+      "size": 270101,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/3bf415502f0e213339887b36f1c72705cc2c1593"
+    },
+    {
+      "path": "runs/segment/train3/confusion_matrix_normalized.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc246c761b84a751926da5fde9345e726beec4d",
+      "size": 257470,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/1bc246c761b84a751926da5fde9345e726beec4d"
+    },
+    {
+      "path": "runs/segment/train3/events.out.tfevents.1723424196.dba31be92c99.3396.0",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b57a908fd4ba5993a4e57a0c5dc5dd7b7d42b5",
+      "size": 303776,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/21b57a908fd4ba5993a4e57a0c5dc5dd7b7d42b5"
+    },
+    {
+      "path": "runs/segment/train3/labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43529c76c5fc396fd070f567433703ebc3cb1e52",
+      "size": 117094,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/43529c76c5fc396fd070f567433703ebc3cb1e52"
+    },
+    {
+      "path": "runs/segment/train3/labels_correlogram.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96cb0e2c0fd447241503a43f7aaac59aadda1b67",
+      "size": 231567,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/96cb0e2c0fd447241503a43f7aaac59aadda1b67"
+    },
+    {
+      "path": "runs/segment/train3/results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9800e8d31ac9b112696589e39f0c2909ca8a5a4",
+      "size": 7680,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/d9800e8d31ac9b112696589e39f0c2909ca8a5a4"
+    },
+    {
+      "path": "runs/segment/train3/results.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0a16d24a4e08c22b470404fcac4040c43f7129f",
+      "size": 449568,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/b0a16d24a4e08c22b470404fcac4040c43f7129f"
+    },
+    {
+      "path": "runs/segment/train3/train_batch0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d47d413d36339e2b3e0c525a42c713e5aab0c1",
+      "size": 863788,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/f7d47d413d36339e2b3e0c525a42c713e5aab0c1"
+    },
+    {
+      "path": "runs/segment/train3/train_batch1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860c9a927e818a9ee6971636515b1197da7fd37e",
+      "size": 712810,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/860c9a927e818a9ee6971636515b1197da7fd37e"
+    },
+    {
+      "path": "runs/segment/train3/train_batch2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddc71b6c650d94fe6b290ea656daed5a01cd1b86",
+      "size": 869456,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/ddc71b6c650d94fe6b290ea656daed5a01cd1b86"
+    },
+    {
+      "path": "runs/segment/train3/train_batch2745.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e180d94a40cb5daf13a3c1347462e7ad1e1c213",
+      "size": 702327,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9e180d94a40cb5daf13a3c1347462e7ad1e1c213"
+    },
+    {
+      "path": "runs/segment/train3/train_batch2746.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c427122c4a003f5ae4289101924687dbcaa286eb",
+      "size": 678937,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/c427122c4a003f5ae4289101924687dbcaa286eb"
+    },
+    {
+      "path": "runs/segment/train3/train_batch2747.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f468b025d20fac9bb3e852a82e89deaf39a9250",
+      "size": 750947,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9f468b025d20fac9bb3e852a82e89deaf39a9250"
+    },
+    {
+      "path": "runs/segment/train3/val_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e924ec3ae4d6b2689a1744bb9b4bc24d2897ad2",
+      "size": 665631,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/1e924ec3ae4d6b2689a1744bb9b4bc24d2897ad2"
+    },
+    {
+      "path": "runs/segment/train3/val_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d747358ba5e8e8457de000a5df0654f2cfd0609",
+      "size": 673178,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9d747358ba5e8e8457de000a5df0654f2cfd0609"
+    },
+    {
+      "path": "runs/segment/train3/val_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d0ee5f993842da39ebd5abd7fc6eddf4b077dc6",
+      "size": 949186,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/4d0ee5f993842da39ebd5abd7fc6eddf4b077dc6"
+    },
+    {
+      "path": "runs/segment/train3/val_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c90f7b7ab0a132db4daf96c87da27a86e4a10bba",
+      "size": 923039,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/c90f7b7ab0a132db4daf96c87da27a86e4a10bba"
+    },
+    {
+      "path": "runs/segment/train3/val_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "188f70c612f3e747ad094791477418e9e8e50365",
+      "size": 982378,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/188f70c612f3e747ad094791477418e9e8e50365"
+    },
+    {
+      "path": "runs/segment/train3/val_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1685352bea502c09fa9ac9b72b6baabe1b2f339",
+      "size": 963308,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/d1685352bea502c09fa9ac9b72b6baabe1b2f339"
+    },
+    {
+      "path": "runs/segment/train3/weights/best.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbd3aa5d7d03a63aa176b3a650be4b014902421c",
+      "size": 54869269,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/dbd3aa5d7d03a63aa176b3a650be4b014902421c"
+    },
+    {
+      "path": "runs/segment/train3/weights/last.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623c8087cb4b0aa229485753658279ee3e83a45b",
+      "size": 54869269,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/623c8087cb4b0aa229485753658279ee3e83a45b"
+    },
+    {
+      "path": "runs/segment/train4/BoxF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb6515555611dca8fe57275e38e94c0cbd66f36",
+      "size": 529311,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/3fb6515555611dca8fe57275e38e94c0cbd66f36"
+    },
+    {
+      "path": "runs/segment/train4/BoxPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0d966a884312baf068e1f6271469431ce7a20c6",
+      "size": 248197,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/b0d966a884312baf068e1f6271469431ce7a20c6"
+    },
+    {
+      "path": "runs/segment/train4/BoxP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59b7dd7f27ad9e2ab8fc6926d32193c2b1dfee9d",
+      "size": 385838,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/59b7dd7f27ad9e2ab8fc6926d32193c2b1dfee9d"
+    },
+    {
+      "path": "runs/segment/train4/BoxR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e152ee3439fad1ba6a403e8295de1a23c1412df",
+      "size": 456885,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9e152ee3439fad1ba6a403e8295de1a23c1412df"
+    },
+    {
+      "path": "runs/segment/train4/MaskF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2f73e4f54b96fac468bc3ea9a2e754570cc0478",
+      "size": 571549,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/e2f73e4f54b96fac468bc3ea9a2e754570cc0478"
+    },
+    {
+      "path": "runs/segment/train4/MaskPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48950a92dc1110860da6bc994525fd529a9df231",
+      "size": 314122,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/48950a92dc1110860da6bc994525fd529a9df231"
+    },
+    {
+      "path": "runs/segment/train4/MaskP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db1de0ca46af7fd65cc05a2c6e57f2a8cd6f37f1",
+      "size": 480130,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/db1de0ca46af7fd65cc05a2c6e57f2a8cd6f37f1"
+    },
+    {
+      "path": "runs/segment/train4/MaskR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4d6f015a4d95368c13e2c283d37089996b7b23c",
+      "size": 470963,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/b4d6f015a4d95368c13e2c283d37089996b7b23c"
+    },
+    {
+      "path": "runs/segment/train4/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea0f07e2e9c96002b8e4d7a0f38037b8e4cc2a1c",
+      "size": 269906,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/ea0f07e2e9c96002b8e4d7a0f38037b8e4cc2a1c"
+    },
+    {
+      "path": "runs/segment/train4/confusion_matrix_normalized.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014fcd5580cbc707a2082b25774f9631dff00f5e",
+      "size": 257470,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/014fcd5580cbc707a2082b25774f9631dff00f5e"
+    },
+    {
+      "path": "runs/segment/train4/val_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc16cc5a85c8d3c8fb90b70319c8a4d93871745e",
+      "size": 664561,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/dc16cc5a85c8d3c8fb90b70319c8a4d93871745e"
+    },
+    {
+      "path": "runs/segment/train4/val_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76e63adb199497e44b61132b5813ae9a6551d51d",
+      "size": 672101,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/76e63adb199497e44b61132b5813ae9a6551d51d"
+    },
+    {
+      "path": "runs/segment/train4/val_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c46ace4eedb7f03fb44d948da45cb14a5a5d66",
+      "size": 666758,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/53c46ace4eedb7f03fb44d948da45cb14a5a5d66"
+    },
+    {
+      "path": "runs/segment/train4/val_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3de63686d0908cb3516093711457ac1e16ecbad7",
+      "size": 670872,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/3de63686d0908cb3516093711457ac1e16ecbad7"
+    },
+    {
+      "path": "runs/segment/train4/val_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a946f2a68ac20abc0fe02496a809fd551b83851",
+      "size": 949514,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/7a946f2a68ac20abc0fe02496a809fd551b83851"
+    },
+    {
+      "path": "runs/segment/train4/val_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d851ac7c6becc23ca25aab010c23a1f0d25fb9",
+      "size": 923672,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/44d851ac7c6becc23ca25aab010c23a1f0d25fb9"
+    },
+    {
+      "path": "runs/segment/train5/BoxF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec02df9aa5522ef3afd500e9bbb6b00586a0df1",
+      "size": 368296,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/6ec02df9aa5522ef3afd500e9bbb6b00586a0df1"
+    },
+    {
+      "path": "runs/segment/train5/BoxPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efec023130f2e2e374a74979927e107b3f9736b9",
+      "size": 137194,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/efec023130f2e2e374a74979927e107b3f9736b9"
+    },
+    {
+      "path": "runs/segment/train5/BoxP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17aad3c55c52bbb467e4d26ac86a424e5a16aa8b",
+      "size": 281834,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/17aad3c55c52bbb467e4d26ac86a424e5a16aa8b"
+    },
+    {
+      "path": "runs/segment/train5/BoxR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67336957c2280c175839163262a9ae3cc522cc5a",
+      "size": 328632,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/67336957c2280c175839163262a9ae3cc522cc5a"
+    },
+    {
+      "path": "runs/segment/train5/MaskF1_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63d82ed2ced88a66a15798f5439879617ac9267e",
+      "size": 416740,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/63d82ed2ced88a66a15798f5439879617ac9267e"
+    },
+    {
+      "path": "runs/segment/train5/MaskPR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "188fa30dd6dc8c6bce585c4271c1eb055ef2f85e",
+      "size": 207572,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/188fa30dd6dc8c6bce585c4271c1eb055ef2f85e"
+    },
+    {
+      "path": "runs/segment/train5/MaskP_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aeec27009406ed16453f621d7ab977c14e53a50",
+      "size": 350030,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/9aeec27009406ed16453f621d7ab977c14e53a50"
+    },
+    {
+      "path": "runs/segment/train5/MaskR_curve.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94c88e75436d452f3891c4f75a2a898d7a12abe",
+      "size": 343781,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/b94c88e75436d452f3891c4f75a2a898d7a12abe"
+    },
+    {
+      "path": "runs/segment/train5/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bb356e50dbcb0f7b6f6262ac0c68f039740b667",
+      "size": 255691,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/4bb356e50dbcb0f7b6f6262ac0c68f039740b667"
+    },
+    {
+      "path": "runs/segment/train5/confusion_matrix_normalized.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd2970a303d6cf936c9a15f719aa1087da24a27",
+      "size": 256660,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/ecd2970a303d6cf936c9a15f719aa1087da24a27"
+    },
+    {
+      "path": "runs/segment/train5/val_batch0_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd20891d410505c13d37d5b8cd4cc42c445267e",
+      "size": 679761,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/4cd20891d410505c13d37d5b8cd4cc42c445267e"
+    },
+    {
+      "path": "runs/segment/train5/val_batch0_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cab742491f1a1ed2ca2668b5c8252a4b7f66f5c",
+      "size": 673595,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/8cab742491f1a1ed2ca2668b5c8252a4b7f66f5c"
+    },
+    {
+      "path": "runs/segment/train5/val_batch1_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e26dc093146615f9a6c90a7ea7bf00ae54582ed",
+      "size": 682549,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/3e26dc093146615f9a6c90a7ea7bf00ae54582ed"
+    },
+    {
+      "path": "runs/segment/train5/val_batch1_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dfa941819db865694f893ac8fca18d61dd74198",
+      "size": 674151,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/4dfa941819db865694f893ac8fca18d61dd74198"
+    },
+    {
+      "path": "runs/segment/train5/val_batch2_labels.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00be3643500415178baddb0ce5636e8308886696",
+      "size": 673835,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/00be3643500415178baddb0ce5636e8308886696"
+    },
+    {
+      "path": "runs/segment/train5/val_batch2_pred.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb63da8ae044e63746a60b03f68417c707db38b",
+      "size": 665030,
+      "url": "https://api.github.com/repos/Kerollosl/dental-segmentation/git/blobs/adb63da8ae044e63746a60b03f68417c707db38b"
+    }
+  ],
+  "status": "Historical artifacts retained. Training/evaluation and redistribution rights are not independently verified."
+}

@@ -13,11 +13,10 @@ def get_key_from_value(value, dict_choice):
 def predict_teeth(image_path, tooth_dict, classes, resize_shape=(840, 540), conf=0.5):
 
     frame = cv2.imread(image_path)
-    frame = cv2.resize(frame, resize_shape)
-
     if frame is None:
         print("Error: Could not read the image.")
     else:
+        frame = cv2.resize(frame, resize_shape)
         # Predict for only the classes of choice (Tooth numbers or Conditions)
         results = model.predict(frame, classes=classes, conf=conf)
 
@@ -202,3 +201,4 @@ dir_choice = dir_options[CHOICE]
 # Predict for test images
 for img in os.listdir(dir_choice):
     predict_teeth(f"{dir_choice}/{img}", yaml_to_universal, pred_choice, resize_shape=(1200, 800), conf=0.25)
+
