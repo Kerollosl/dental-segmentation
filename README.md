@@ -32,3 +32,7 @@ A YOLOv8 segmentation model for dental X-rays that can either label each tooth w
 ## Cleanup behavior and validation limits
 
 Research-only tooth segmentation. Unreadable images are rejected before resizing. Set ROBOFLOW_API_KEY externally and revoke the previously committed credential. Tooth/condition mappings and patient-separated evaluation still require validation against the exact model.names and original dataset provenance.
+
+Use `python predict.py INPUT --model WEIGHTS --output predictions` for noninteractive image inference. Unreadable images fail before inference.
+
+For explicit held-out evaluation, supply a JSON array of `{patient_id, split, image}` records (image paths relative to dataset root) and run `python evaluate.py --model WEIGHTS --data data.yaml --patients patients.json --output evaluation.json`. The tool rejects patient leakage and mismatched image coverage, then evaluates only test and records checksums. Patient identities/provenance are supplied by the dataset owner; they are not inferred from filenames.

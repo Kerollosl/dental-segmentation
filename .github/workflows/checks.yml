@@ -12,3 +12,5 @@ jobs:
           python-version: '3.11'
       - name: Python syntax
         run: python -m compileall -q .
+      - name: Class manifest regressions
+        run: python -m unittest discover -s tests
